@@ -4,6 +4,8 @@
 
 ClawFi - Crypto Intelligence Platform with Browser Extension, Dashboard & API. Apple Liquid Glass UI design.
 
+<img width="1236" height="383" alt="c396429d328364220f0835ce9c9dc402" src="https://github.com/user-attachments/assets/331838d6-051f-4315-867a-4db624642546" />
+
 ## Threat Model
 
 ### Assets to Protect
