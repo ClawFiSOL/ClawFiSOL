@@ -2,7 +2,7 @@
 
 ## Overview
 
-ClawFi is designed with security as a primary concern. 
+ClawFi - Crypto Intelligence Platform with Browser Extension, Dashboard & API. Apple Liquid Glass UI design.
 
 ## Threat Model
 
@@ -29,24 +29,4 @@ ClawFi is designed with security as a primary concern.
 4. Session hijacking
 5. Social engineering
 
-## Security Measures
-
-### Secret Management
-
-**Encryption at Rest**
-- All API keys and secrets encrypted with AES-256-GCM
-- Per-secret key derivation using HKDF
-- Master key stored in environment variable (never in code/DB)
-
-```
-Master Key (env) → HKDF → Per-Secret Key → AES-256-GCM → Encrypted Data
-```
-
-**Key Rotation**
-- Support for re-encrypting secrets with new context
-- Version field for future encryption upgrades
-
-**Never Logged**
-- Secrets are redacted in all log output
-- Audit logs contain only sanitized data
 
